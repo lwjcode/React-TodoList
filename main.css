@@ -1,0 +1,113 @@
+.container {
+	text-align: center;
+	background-color: #f7f7f7;
+	margin: 50px 20%;
+	padding: 20px 0;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.dialog {
+	text-align: left;
+	margin: 0 5%;
+	padding: 30px 0;
+}
+
+.dialog div {
+	overflow: hidden;	
+}
+
+h3 {
+	display: inline-block;
+	margin-left: 50px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+input[type="text"] {
+	line-height: 40px;
+	float: right;
+	width: 80%;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	box-sizing: border-box;
+	padding: 0 5px;
+	border: 1px #ccc solid;
+	outline: none;
+	box-shadow: 0 0 10px #ccc;
+}
+
+input[type="button"] {
+	border: none;
+	background-color: #A1EAFB;
+	height: 40px;
+	width: 110px;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 5px;
+	float: right;
+}
+
+ul {
+	text-align: left;
+	margin: 20px 5%;
+	border-radius: 5px;
+	border: 1px #bbb solid;
+}
+
+ul li {
+	list-style: none;
+	line-height: 50px;
+	border-bottom: 1px #bbb solid;
+	padding: 0 20px;
+}
+
+ul li:first-child {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+ul li:last-child {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+ul li:hover > .delete-btn {
+	display: block;
+}
+
+.delete-btn {
+	color: #ccc;
+	float: right;
+	cursor: pointer;
+	display: none;
+}
+
+.check-btn {
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	border: 1px #ccc solid;
+	border-style: outset;
+	border-radius: 5px;
+	margin-right: 20px; 
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	border: 0;
+	color: #fff;
+	background-color: #A1EAFB;
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		margin: 20px 5%;
+	}
+
+	h3 {
+		margin-left: 0;
+	}
+}
