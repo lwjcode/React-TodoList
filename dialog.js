@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TodoList extends Component {
+class Dialog extends Component {
 	constructor (props) {
 		super(props);
 
@@ -39,4 +39,4 @@ class TodoList extends Component {
 	}
 }
 
-export default TodoList;
+export default Dialog;
